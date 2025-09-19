@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Sharif University Course</title>
+    <link rel="stylesheet" href="/static/css/styles.css"/>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h2>Sharif University</h2>
+    </div>
+    <nav>
+        <a href="index.html" data-i18n="home">Home</a>
+        <a href="pages/course-materials.html" data-i18n="courseMaterials">Course Materials</a>
+        <a href="pages/about-us.html" data-i18n="aboutUs">About Us</a>
+        <a href="pages/projects.html" data-i18n="projects">Projects</a>
+        <a href="pages/other-years.html" data-i18n="otherYears">Other Years</a>
+    </nav>
+    <div>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+        <select id="languageSelect" aria-label="Select language">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <!-- Add more languages here -->
+        </select>
+    </div>
+</header>
+
+<main class="container">
+    <h1 data-i18n="welcomeMessage">Welcome to the Sharif University of Technology Course Website!</h1>
+    <p data-i18n="description">This site provides resources and information for your courses.</p>
+</main>
+
+<footer>
+    <p>© 2025 Sharif University of Technology. All rights reserved.</p>
+</footer>
+
+<script src="/static/js/index.js"></script>
+</body>
+</html>
