@@ -1,6 +1,6 @@
 # Sharif University Course Website
 
-This is a modern, multi-page website for SAG University of Technology courses. It supports:
+This is a modern, multi-page website for Sharif University of Technology courses. It supports:
 
 - Dark mode toggle
 - Multi-language support (currently 3 languages included; ready to add up to 10)
